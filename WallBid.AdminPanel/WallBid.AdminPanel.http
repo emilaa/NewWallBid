@@ -1,0 +1,6 @@
+@WallBid.AdminPanel_HostAddress = http://localhost:5008
+
+GET {{WallBid.AdminPanel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
