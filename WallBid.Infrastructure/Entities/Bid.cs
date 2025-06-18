@@ -8,6 +8,6 @@ namespace WallBid.Infrastructure.Entities
         public int CarId { get; set; }
         public Car Car { get; set; }
         public DateTime StartDate { get; set; }
-
+        public bool IsEnable { get; set; } = false;
     }
 }
